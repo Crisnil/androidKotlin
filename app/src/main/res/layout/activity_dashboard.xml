@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:padding="20dp"
+    tools:context="com.design4web.tripii.Dashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:text="@string/trippr"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/teacherlayout"
+        android:layout_below="@+id/text"
+        android:orientation="vertical"
+        android:layout_above="@+id/logout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/createtrip"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/createtrip"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/buttonbg1"
+                        android:text="@string/seealltrip"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/seetrip"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/buttonbg1"
+                        android:text="@string/seeprofile"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/profile"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/messages"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:id="@+id/messages"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/buttonbg1"
+                        android:text="@string/joinclasstrip"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:id="@+id/joinclasstrip"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/upgrade"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/upgrade"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/studentlayout"
+        android:visibility="gone"
+        android:layout_below="@+id/text"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/joinnewtrip"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/jointrip"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/buttonbg1"
+                        android:text="@string/yourtrip"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/joinedtrip"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/buttonbg1"
+                        android:text="@string/seeprofile"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:id="@+id/studentprofile"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/messages"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:id="@+id/studentmessages"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/teacherlayourbg"
+                        android:text="@string/logout"
+                        android:textColor="#fff"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:id="@+id/studentlogout"
+                        android:textStyle="bold"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/teacherlayourbg"
+        android:text="@string/logout"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/licencecode"
+        android:layout_margin="5dp"
+        android:id="@+id/logout"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/licencecode"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="#fff"
+        />
+
+
+
+</RelativeLayout>

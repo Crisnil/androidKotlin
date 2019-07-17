@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundcolor"
+    android:elevation="20dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendmessage"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/layoutheader"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/writemessage"
+        android:layout_below="@+id/layoutheader"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/corners"
+        android:textAlignment="center"
+        android:lines="4"
+        android:padding="10dp"
+        android:hint="@string/writemessage"
+        android:textColor="#f77062"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/writemessage"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/send"
+            android:id="@+id/btnsend"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/buttonbg"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Cancel"
+        android:textColor="#fff"
+        android:background="@drawable/teacherlayourbg"
+        android:id="@+id/btncancel"
+        android:textSize="20dp"
+
+        />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

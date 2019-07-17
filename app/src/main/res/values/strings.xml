@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Tripii</string>
+    <string name="trippr" translatable="false">TRIPII</string>
+    <string name="payment" translatable="false">PAYMENT</string>
+    <string name="cardholdername" translatable="false">CARD HOLDER FULL NAME</string>
+    <string name="cardnumber" translatable="false">CARD NUMBER</string>
+    <string name="expiremonth" translatable="false">EXPIRE MONTH</string>
+    <string name="expireyear" translatable="false">EXPIRE YEAR</string>
+    <string name="cvv" translatable="false">CVV</string>
+    <string name="pay" translatable="false">PAY</string>
+    <string name="code" translatable="false">CODE :</string>
+    <string name="more">MORE</string>
+    <string name="entercomment">Enter comment</string>
+    <string name="entertripcode">Enter Tripcode</string>
+
+
+    <string name="membershiptext">Membership : </string>
+
+
+    <string name="wronginfo">Wrong Credentials !</string>
+
+
+    <string name="alreadyjoined">Already Joined</string>
+    <string name="invalidcode">Invalid Tripcode</string>
+    <string name="invalidpassword">Invalid Password</string>
+
+    <string name="messages">MESSAGES</string>
+
+    <string name="yourtrip">YOUR TRIPS</string>
+    <string name="loginviafacebook" translatable="false">LOG IN VIA FACEBOOK</string>
+    <string name="seeprofile">PROFILE</string>
+    <string name="joinnewtrip">JOIN NEW TRIP</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="updateprofile">UPDATE PROFILE</string>
+
+    <string name="tripcodeverified">Tripcode verified</string>
+    <string name="joinedtrip">Trip Joined Successfully</string>
+
+    <string name="incorrect">Incorrect Email or Password !</string>
+    <string name="oops">Oops...</string>
+
+    <string name="invalidmail">Enter valid Email</string>
+    <string name="firstregister">Register with facebook first</string>
+
+    <string name="tripnotstart">Trip not started yet.</string>
+
+    <string name="validcode">Enter valid Licence code</string>
+    <string name="congrats">Congrats</string>
+    <string name="codeverified">Licence code verified successfully</string>
+    <string name="emailexist">Email already exist!</string>
+    <string name="fillallthefields">Fill all the fields</string>
+
+    <string name="comment">Comment</string>
+    <string name="sendmessage">SEND MESSAGE</string>
+
+    <string name="findstudents">FIND STUDENTS</string>
+    <string name="teachertripov">TEACHER\'S TRIP OVERVIEW</string>
+    <string name="comments">COMMENTS</string>
+
+    <string name="duration">Duration - </string>
+    <string name="to"> To </string>
+
+    <string name="jointhistrip">JOIN THIS TRIP</string>
+
+    <string name="userprofile">USER PROFILE</string>
+
+    <string name="overviewteacherlocation">OVERVIEW OF TEACHER\'S LOCATION</string>
+    <string name="overviewstudentlocation">OVERVIEW OF STUDENT\'S LOCATION</string>
+    <string name="findteacher">FIND TEACHERS</string>
+    <string name="studenttripov">STUDENT\'S TRIP OVERVIEW</string>
+
+    <string name="joinclasstrip">JOIN CLASSTRIP</string>
+    <string name="inputtripname">INPUT TRIPCODE</string>
+
+    <string name="profileupdate">PROFILE UPDATED SUCCESSFULLY</string>
+
+    <string name="search">SEARCH</string>
+    <string name="results">RESULTS</string>
+    <string name="studenttriprome" translatable="false">STUDENTTRIP ROME</string>
+
+    <string name="send">SEND</string>
+    <string name="writemessage">WRITE YOUR MESSAGE</string>
+
+    <string name="messagesent">MESSAGE SENT</string>
+
+    <string name="createclasstrip">CREATE CLASSTRIP</string>
+    <string name="tripname">TRIP NAME</string>
+    <string name="trippassword">TRIP PASSWORD</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="date">START DATE</string>
+    <string name="enddate">END DATE</string>
+    <string name="createtrip">CREATE TRIP</string>
+    <string name="seealltrip">ALL TRIPS</string>
+
+    <string name="nametext">Name</string>
+
+    <string name="allclasstrip">ALL CLASSTRIP</string>
+    <string name="join">JOIN</string>
+    <string name="trial" translatable="false">Trial</string>
+
+    <string name="tripover">Trip is over</string>
+    <string name="limitover" translatable="false">Free trial is over. Upgrade the plan for adding the Trip</string>
+
+    <string name="successlogin" translatable="false">Login Success</string>
+    <string name="checkconnection">Check your Internet Connection</string>
+    <string name="tripadded">Trip Created Successfully</string>
+    <string name="membershipplan" translatable="false">Select one membership plan</string>
+
+    <string name="congratsprofile">CONGRATULATIONS YOUR PROFILE WAS CREATED!</string>
+    <string name="yourlicencecode">YOUR LICENCECODE:</string>
+    <string name="inputlicence" translatable="false">INPUT LICENCE</string>
+    <string name="licencecode">LICENCE CODE</string>
+    <string name="validate" translatable="false">VALIDATE</string>
+    <string name="viafacebook">CREATE ACCOUNT VIA FACEBOOK</string>
+    <string name="name">FIRST + LAST NAME</string>
+    <string name="school">NAME OF YOUR SCHOOL</string>
+    <string name="email">YOUR EMAIL</string>
+    <string name="password">CHOOSE PASSWORD</string>
+    <string name="membership">CHOOSE MEMBERSHIP</string>
+    <string name="trialperiod">TRIAL PERIOD</string>
+    <string name="oneclasstrip" translatable="false">-1 CLASSTRIP</string>
+    <string name="maxstudent" translatable="false">-MAX 30 STUDENTS</string>
+    <string name="oneteacher" translatable="false">-1 TEACHER</string>
+    <string name="fiftyteacher" translatable="false">- 50 TEACHERS</string>
+    <string name="free" translatable="false">FREE</string>
+    <string name="fullaccess" translatable="false">FULL ACCESS</string>
+    <string name="unlimited" translatable="false">- UNLIMITED CLASSTRIPS</string>
+    <string name="onetwenty" translatable="false">- 129 DKK PR MONTH</string>
+    <string name="alreadymember">ALREADY A MEMBER?</string>
+    <string name="registerhere" translatable="false">REGISTER HERE WITH YOUR SCHOOL VALIDATION CODE</string>
+    <string name="email_id" translatable="false">EMAIL</string>
+    <string name="Password">PASSWORD</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">CREATE PROFILE</string>
+    <string name="or">OR</string>
+    <string name="start" translatable="false">START</string>
+    <string name="loading">Loading</string>
+    <string name="teacherprofile">CREATE TEACHERPROFILE</string>
+    <string name="studentprofile">CREATE STUDENTPROFILE</string>
+    <string name="facebook_app_id">196632047711824</string>
+    <string name="fb_login_protocol_scheme">fb196632047711824</string>
+
+    <string name="chatlist">CHAT LIST</string>
+    <string name="chat">CHAT</string>
+    <string name="schoolnametext">School Name</string>
+    <string name="upgrade" translatable="false">Upgrade the Plan</string>
+    <string name="logout">Logout</string>
+    <string name="tripfull" translatable="false">Trip already full</string>
+
+</resources>
+

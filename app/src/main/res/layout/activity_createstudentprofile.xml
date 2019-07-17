@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:padding="20dp"
+    tools:context="com.design4web.tripii.Createstudentprofile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:text="@string/trippr"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:layout_below="@+id/text"
+                android:text="@string/studentprofile"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/teacherprofile"
+                />
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:visibility="invisible"
+                android:layout_below="@+id/teacherprofile"
+                />
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/createfacebook"
+                android:layout_below="@+id/teacherprofile"
+                android:text="@string/viafacebook"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/facebookbg"
+                android:textColor="#fff"
+
+                />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/or"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textAlignment="center"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/createfacebook"-->
+                <!--android:layout_margin="20dp"-->
+                <!--android:id="@+id/or"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/createfacebook"
+                android:background="@drawable/corners"
+                android:padding="10dp"
+                android:lines="1"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:hint="@string/name"
+                />
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/schoolname"-->
+                <!--android:layout_below="@+id/name"-->
+                <!--android:background="@drawable/corners"-->
+                <!--android:padding="10dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:lines="1"-->
+                <!--android:textAlignment="center"-->
+                <!--android:hint="@string/school"-->
+                <!--/>-->
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/name"
+                android:background="@drawable/corners"
+                android:textAllCaps="true"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:textStyle="bold"
+                android:layout_below="@+id/spinner"
+                android:background="@drawable/corners"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:lines="1"
+                android:textAlignment="center"
+                android:hint="@string/email"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/corners"
+                android:hint="@string/password"
+                android:lines="1"
+                android:inputType="textPassword"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signup"
+                android:layout_below="@+id/password"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttonbg"
+                android:textColor="#fff"
+
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+
+

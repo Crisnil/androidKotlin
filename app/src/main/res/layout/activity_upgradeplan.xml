@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:padding="20dp"
+    tools:context="com.design4web.tripii.Upgradeplan">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:text="@string/trippr"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:layout_below="@+id/text"
+                android:text="@string/payment"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/teacherprofile"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/teacherprofile"
+                android:background="@drawable/corners"
+                android:padding="10dp"
+                android:lines="1"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:hint="@string/cardholdername"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardnumber"
+                android:layout_below="@+id/name"
+                android:background="@drawable/corners"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:lines="1"
+                android:textAlignment="center"
+                android:hint="@string/cardnumber"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expiremonth"
+                android:textStyle="bold"
+                android:layout_below="@+id/cardnumber"
+                android:background="@drawable/corners"
+                android:padding="10dp"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:lines="1"
+                android:textAlignment="center"
+                android:hint="@string/expiremonth"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expireyear"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:background="@drawable/corners"
+                android:hint="@string/expireyear"
+                android:lines="1"
+                android:layout_below="@+id/expiremonth"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cvv"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/corners"
+                android:hint="@string/cvv"
+                android:lines="1"
+                android:inputType="number"
+                android:layout_below="@+id/expireyear"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pay"
+                android:layout_below="@+id/cvv"
+                android:text="@string/pay"
+                android:textAllCaps="false"
+                android:layout_marginTop="30dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttonbg"
+                android:textColor="#fff"
+
+                />
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pay"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:id="@+id/congratslayout"
+                android:background="@drawable/teacherlayourbg"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/congratsprofile"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:id="@+id/conratsprofile"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yourlicencecode"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/conratsprofile"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:id="@+id/yourcode"
+                    android:textStyle="bold"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yourcode"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:id="@+id/code"
+                    android:textStyle="bold"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
